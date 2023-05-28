@@ -1,13 +1,14 @@
 ---
 title: "Introduction to R"
-output: 
-  html_document: 
-    keep_md: yes
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to R}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+layout: page
+permalink: /1_Intro_To_R/
 date: "2023-05-21"
 ---
-
-
-
 
 # What is R
 
