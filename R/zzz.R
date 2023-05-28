@@ -6,7 +6,7 @@
 "   | |      / /\\ \\ | |  | | |   | |  | |\n",
 "   | |____ / ____ \\| |__| | |___| |__| |\n",
 "   |______/_/    \\_\\_____/ \\_____\\____/ \n",
-"  Lake Michigan Air Director's Consortium\n\n",
+"   Lake Michigan Air Directors Consortium\n\n",
 "Introduction to R for Air Quality Data Analysis\n",
 "_______________________________________________\n\n",
 "Please have a look at the vignettes for an \n",

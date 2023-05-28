@@ -4,11 +4,11 @@ This repository, TrainingRIntro, serves as a companion package for R Intro Train
 
 ## Installation
 
-To install this package, you need to have the `devtools` package installed. If you don't have it, you can install it using the command `install.packages("devtools")`.
+To install this package, you need to have the `remotes` package installed. If you don't have it, you can install it using the command `install.packages("remotes")`.
 
-Once you have `devtools` installed, you can install the TrainingRIntro package using the following command:
+Once you have `remotes` installed, you can install the TrainingRIntro package using the following command:
 
-    devtools::install_github("FluentData/TrainingRIntro")
+    remotes::install_github("FluentData/TrainingRIntro")
 
 ## Training Materials
 
