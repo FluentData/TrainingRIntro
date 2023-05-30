@@ -2,6 +2,14 @@
 
 This repository, TrainingRIntro, serves as a companion package for R Intro Training. It is a unique combination of an R package and training materials designed to provide a comprehensive introduction to R for Air Data Analysis.
 
+## Purpose
+
+The primary goal of this package is to facilitate the learning process for those new to R, particularly in the field of Air Data Analysis. It provides a structured approach to learning, with materials covering a wide range of topics essential for data analysis in R.
+
+## How it Works
+
+The `TrainingRIntro` package includes a series of R scripts and data files that correspond to various sections of the training material. These scripts provide practical examples of the concepts covered in the training, allowing you to learn by doing.
+
 ## Installation
 
 To install this package, you need to have the `remotes` package installed. If you don't have it, you can install it using the command `install.packages("remotes")`.

@@ -1,20 +1,37 @@
+lb <- crayon::make_style(rgb(3,96,133, maxColorValue = 255))
+lg <- crayon::make_style(rgb(0,142,0, maxColorValue = 255))
+
+ladco1 <- function() {
+
+logo <- c(
+lb(" █████         █████████   ██████████  "), lg("   █████████     ███████\n"),
+lb("░░███         ███░░░░░███ ░░███░░░░███ "), lg("  ███░░░░░███  ███░░░░░███\n"),
+lb(" ░███        ░███    ░███  ░███   ░░███"), lg(" ███     ░░░  ███     ░░███\n"),
+lb(" ░███        ░███████████  ░███    ░███"), lg("░███         ░███      ░███\n"),
+lb(" ░███        ░███░░░░░███  ░███    ░███"), lg("░███         ░███      ░███\n"),
+lb(" ░███      █ ░███    ░███  ░███    ███ "), lg("░░███     ███░░███     ███ \n"),
+lb(" ███████████ █████   █████ ██████████  "), lg(" ░░█████████  ░░░███████░  \n"),
+lb("░░░░░░░░░░░ ░░░░░   ░░░░░ ░░░░░░░░░░   "), lg("  ░░░░░░░░░     ░░░░░░░    \n")
+)
+
+return(paste(logo, collapse = ""))
+
+}
+
+
 .onAttach <- function(libname, pkgname) {
+
   packageStartupMessage(
-"    _               _____   _____ ____  \n",
-"   | |        /\\   |  __ \\ / ____/ __ \\ \n",
-"   | |       /  \\  | |  | | |   | |  | |\n",
-"   | |      / /\\ \\ | |  | | |   | |  | |\n",
-"   | |____ / ____ \\| |__| | |___| |__| |\n",
-"   |______/_/    \\_\\_____/ \\_____\\____/ \n",
-"   Lake Michigan Air Directors Consortium\n\n",
-"Introduction to R for Air Quality Data Analysis\n",
-"_______________________________________________\n\n",
-"Please have a look at the vignettes for an \n",
-"overview of the lessions in this package. Or \n",
-"you can access the interactive lessons from the \n",
-"`Addins` dropdown at the top of the screen. \n\n",
-"If you have any trouble please use the package \n",
-"help files or contact the package authors."
+ladco1(),
+crayon::black("\n\n"),
+crayon::black("Introduction to R for Air Quality Data Analysis\n"),
+crayon::black("_______________________________________________\n\n"),
+crayon::black("Please have a look at the vignettes for an \n"),
+crayon::black("overview of the lessions in this package. Or \n"),
+crayon::black("you can access the interactive lessons from the \n"),
+crayon::black("`Addins` dropdown at the top of the screen. \n\n"),
+crayon::black("If you have any trouble please use the package \n"),
+crayon::black("help files or contact the package authors.")
 )
 }
 
