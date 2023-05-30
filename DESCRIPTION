@@ -1,16 +1,28 @@
 Package: TrainingRIntro
-Title: Companion App for FluentData's LADCO R Intro Training
-Version: 0.0.0.9000
+Title: LADCO's Introduction to R for Air Quality Data Analysis
+Version: 0.0.1
 Authors@R: 
     person("Eric", "Bailey", , "eb11307@gmail.com", role = c("aut", "cre"))
     person("Nathan", "Byers", , "natebyers@gmail.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: This package contains the training materials for LADCO's Introduction
+    to R for Air Quality Data Analysis class. It can be used as a standalone 
+    learning resource or as part of an online guided training class. Installing
+    this package gives you access to all the data and `learnr` tutorials needed
+    as well as several conveinence functions that make taking the class a little
+    easier.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-Suggests: 
+VignetteBuilder: knitr
+Imports: 
+    dplyr,
+    gradethis (>= 0.2.13),
     knitr,
     learnr,
-    rmarkdown
-VignetteBuilder: knitr
+    remotes,
+    rmarkdown,
+    rstudioapi,
+    crayon
+Remotes: 
+    rstudio/gradethis
